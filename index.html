@@ -3,20 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <title>portfolio</title>
 </head>
 <body>
     <nav>
     <ul>
         <li><a href="#">home</a> </li>
-        <li><a href="#">about</a></li>
-        <li><a href="#">work</a></li>
-        <li><a href="#">resume</a></li>
-        <li><a href="#">contact</a></li>
+        <li><a href="#about">about</a></li>
+        <li><a href="#work">work</a></li>
+        <li><a href="#resume">resume</a></li>
+        <li><a href="#contact">contact</a></li>
     </ul>
     </nav>
-    <section>
+    <div class="body">
+    <section id="about" class="clasabout">
         <h1>about</h1>
 
         <h4>hello </h4>
@@ -24,9 +25,9 @@
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos fugit, ad ullam quis assumenda, vero praesentium reprehenderit repudiandae sapiente facilis cumque. Quo et sed repellat nostrum quas adipisci dolores iusto!</p>
     </section>
   <br/>
-    <section>
+    <section id="work" class="classwork">
         <h1>work</h1>
-        <table border="1">
+        <table border="1" class="table">
             <tr>
                 <th>colum1</th>
                 <th>colum2</th>
@@ -45,29 +46,32 @@
             </tr>
         </table>
     </section>
-    <section>
+    <section id="resume" class="classresume">
         <h1>Resume</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus necessitatibus et eum, voluptas, non reprehenderit incidunt praesentium veniam facilis eius quia vel aut, atque iusto provident nostrum at minima vitae.</p>
-        <img src="./img1.jpg" alt="image errer"/>
+        <img src="./img2.jpg" alt="image errer" class="image"/>
     </section>
-    <section>
+    <section id="contact">
         <h1>Contact</h1>
-        <form>
-            <label> name</label>
+        <form class="form">
+            <label> name:</label>
             <input type="text" name=" name" placeholder=" name"/>
              <br/>
-             <label>birth date</label>
+             <label>birth date:</label>
              <input type="date" name="birthday" placeholder="birthday"/>
              <br/>
-             <label>password</label>
+             <label>password:</label>
              <input type="password" name="password"/>
              <br/>
-             <input type="submit" name="submit"/>
+             <input type="submit" name="submit" class="button"/>
         </form>
     </section>
     <footer>
         <p>copyright 2023</p>
         
     </footer>
+</div>
 </body>
 </html>
+
+

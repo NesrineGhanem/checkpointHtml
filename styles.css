@@ -1,0 +1,130 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: roboto;
+}
+nav{
+    width: 100%;
+    margin:0 auto;
+    position: sticky;
+    text-decoration: none;
+    top:0px;
+    
+}
+
+nav a {
+    display: block;
+    color: rgb(194, 15, 15);
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    padding: 20px 0px;
+    font-size: 20px;
+    background-color: grey;
+
+}
+
+nav a:hover{
+  color: blue;
+  border-bottom: 4px solid rgb(194, 15, 15);  
+}
+nav ul {
+    list-style-type: none;
+    
+}
+
+
+nav li{
+    float: left;
+    width: 20%;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+.body{
+    
+    background-image: linear-gradient(to right ,#e8dada,#c078aa);
+    
+}
+
+h1{
+    color: red;
+    font-size: 30px;
+    text-decoration: underline;
+    margin-left: 5px;
+    margin-top: 20px;
+    
+
+}
+
+h4 ,p {
+    font-size:25px;
+    padding: 10px;
+    font-weight: 20px;
+}
+
+.table{
+    text-align: center;
+    border: 3px solid blue;
+    height: 200px;
+    width: 700px;
+    margin-left: 400px;
+
+}
+th{
+    color: #eb11aa;
+    font-size: 20px;
+}
+
+
+.image{
+    margin-left: 250px;
+}
+
+.form{
+    margin-left: 20px;
+    font-size: 30px;
+}
+input{
+    width: 800px;
+    height: 20px;
+}
+.button{
+    width: 400px;
+    margin-top: 20px;
+    margin-left: 400px;
+   
+    margin: solid , 2px,black;
+    background-color: blue;
+}
+.button:hover{
+    color: blue;
+     background-color: #bf77aa;
+}
+
+footer{
+    text-align: center;
+    font-size: 20px;
+    color: rgb(194, 15, 15);
+    background-color: gray ;
+    margin-top: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
